@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description>list files in local dir</description>
+    <executionEnabled>true</executionEnabled>
+    <id>9085eb8b-b764-4dba-8288-6bca43466c40</id>
+    <loglevel>INFO</loglevel>
+    <name>list files in directory in local</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <description>list files</description>
+        <exec>dir</exec>
+      </command>
+    </sequence>
+    <uuid>9085eb8b-b764-4dba-8288-6bca43466c40</uuid>
+  </job>
+</joblist>
